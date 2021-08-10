@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TaskList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+
+        <!-- button color -->
+        <item name="colorPrimary">@color/darkRed</item>
+
+        <!-- status/notification bar color -->
+        <item name="colorPrimaryVariant">@color/darkRed</item>
+
+        <!-- button text color -->
+        <item name="colorOnPrimary">@color/pink</item>
+
+        <!-- Secondary brand color. -->
+
+        <!-- cursor and checkbox color -->
+        <item name="colorSecondary">@color/pink</item>
+
+
+        <item name="colorSecondaryVariant">@color/red</item>
+        <item name="colorOnSecondary">@color/red</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- color of the action bar(app title) -->
+        <item name="colorSurface">@color/mediumRed</item>
+
+
+
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:windowBackground">@drawable/darkmode_gradient_item</item>
+    </style>
+
+</resources>
